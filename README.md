@@ -1,1 +1,1 @@
-# geoquiz
+# Android app - Geoquiz
