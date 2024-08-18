@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context="com.project.geoquiz.QuizActivity">
+    tools:context="com.example.geoquiz.QuizActivity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -21,14 +21,18 @@
         android:orientation="horizontal"
         android:layout_gravity="center">
             <Button
+                android:id="@+id/btn_true"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/btn_true"/>
+                android:text="@string/btn_true"
+                android:layout_margin="8dp"/>
 
             <Button
+                android:id="@+id/btn_false"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/btn_false"/>
+                android:text="@string/btn_false"
+                android:layout_margin="8dp"/>
 
     </LinearLayout>
 </LinearLayout>
